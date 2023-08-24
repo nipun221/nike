@@ -21,6 +21,10 @@ import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 
+import nikeBlack from './nike-black.png'
+import nikeName from './nike-name.png'
+import nikeR from './nike-r.png'
+
 export {
     bigShoe1,
     bigShoe2,
@@ -42,5 +46,9 @@ export {
     thumbnailBackground,
     thumbnailShoe1,
     thumbnailShoe2,
-    thumbnailShoe3
+    thumbnailShoe3,
+
+    nikeBlack,
+    nikeName,
+    nikeR,
 }
