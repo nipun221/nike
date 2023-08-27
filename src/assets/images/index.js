@@ -2,7 +2,6 @@ import bigShoe1 from './big-shoe1.png'
 import bigShoe2 from './big-shoe2.png'
 import bigShoe3 from './big-shoe3.png'
 import bigShoe4 from './big-shoe4.png'
-import bigShoe5 from './big-shoe5.png'
 import bigShoe6 from './big-shoe6.png'
 import bigShoe7 from './big-shoe7.png'
 
@@ -34,7 +33,6 @@ export {
     bigShoe2,
     bigShoe3,
     bigShoe4,
-    bigShoe5,
     bigShoe6,
     bigShoe7,
 

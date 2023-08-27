@@ -1,15 +1,15 @@
 import Button from "../components/Button";
 import{ shoes, statistics } from "../constants";
-import { bigShoe5 } from "../assets/images";
+import { bigShoe4 } from "../assets/images";
 import ShoeCard from "../components/ShoeCard";
 import { useState } from "react";
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe5);
+  const [bigShoeImg, setBigShoeImg] = useState(bigShoe4);
   return (
     <section
       id="home"
-      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
+      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-20 max-container"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className='text-[25px] font-weight-500 font-montserrat text-blue-400'>
@@ -43,7 +43,7 @@ const Hero = () => {
           className="object-contain relative z-10"
         />
 
-        <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[17%] max-sm:px-6'>
+        <div className='flex sm:gap-6 gap-4 absolute -bottom-[0%] sm:left-[17%] max-sm:px-6'>
           {shoes.map((image, index) => (
             <div key={index}>
               <ShoeCard
