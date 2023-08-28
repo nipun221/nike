@@ -28,6 +28,12 @@ import nikeBlack from './nike-black.png'
 import nikeName from './nike-name.png'
 import nikeR from './nike-r.png'
 
+import nike1 from './nike-shoe1.png'
+import nike2 from './nike-shoe2.png'
+import nike3 from './nike-shoe3.png'
+import nike4 from './nike-shoe4.png'
+import nike5 from './nike-shoe5.png'
+
 export {
     bigShoe1,
     bigShoe2,
@@ -57,4 +63,10 @@ export {
     nikeBlack,
     nikeName,
     nikeR,
+
+    nike1,
+    nike2,
+    nike3,
+    nike4,
+    nike5,
 }
