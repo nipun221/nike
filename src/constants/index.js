@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe4, bigShoe6, bigShoe7, customer1, customer2, nike1, nike3, nike4, nike5 } from "../assets/images";
+import { bigShoe4, bigShoe6, bigShoe7, customer1, customer2, nike1, nike3, nike4, nike6 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -32,23 +32,23 @@ export const statistics = [
 export const products = [
     {
         imgURL: nike1,
-        name: "Nike Air Max 270 React ENG",
-        price: "159.99",
+        name: "Air Jordan 7 Retro White/Black",
+        price: "₹18,697.00",
     },
     {
         imgURL: nike3,
-        name: "Nike Air Max 270 React ENG",
-        price: "159.99",
+        name: "Air Force 1 Low White Gum",
+        price: "₹7,939.00",
     },
     {
         imgURL: nike4,
-        name: "Nike Air Max 270 React ENG",
-        price: "159.99",
+        name: "Air Jordan 1 Off White Chicago",
+        price: "₹5,40,000.00",
     },
     {
-        imgURL: nike5,
-        name: "Nike Air Max 270 React ENG",
-        price: "159.99",
+        imgURL: nike6,
+        name: "Air Jordan 4 Golf Military Blue",
+        price: "₹48,444.00",
     },
 ];
 
