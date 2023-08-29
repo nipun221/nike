@@ -37,6 +37,7 @@ import nike6 from './nike-shoe6.png'
 
 import nikePoster from './nike-poster.png'
 import nikeSplash from './nike-splash.png'
+import nikePurple from './nike-purple.png'
 
 export {
     bigShoe1,
@@ -77,4 +78,5 @@ export {
 
     nikePoster,
     nikeSplash,
+    nikePurple,
 }

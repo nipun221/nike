@@ -1,4 +1,4 @@
-import { nikeSplash } from "../assets/images";
+import { nikePurple } from "../assets/images";
 import Button from "../components/Button";
 
 const SuperQuality = () => {
@@ -8,7 +8,7 @@ const SuperQuality = () => {
       className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
     >
       <div className="flex flex-1 flex-col">
-        <h2 className="mt-10 font-palanquin text-4xl capitalize font-bold">
+        <h2 className="font-palanquin text-4xl capitalize font-bold">
           We Provide You
           <span className='text-purple-600'> Super </span>
           <span className='text-purple-600'>Quality </span> Shoes
@@ -25,10 +25,10 @@ const SuperQuality = () => {
 
       <div className='flex-1 flex justify-center items-center'>
         <img
-          src={nikeSplash}
+          src={nikePurple}
           alt='product detail'
-          width={570}
-          height={522}
+          width={700}
+          height={600}
           className='object-contain'
         />
       </div>
