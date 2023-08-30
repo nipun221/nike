@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe4, bigShoe6, bigShoe7, customer1, customer2, nike1, nike3, nike4, nike6 } from "../assets/images";
+import { bigShoe4, bigShoe6, bigShoe7, customer1, customer2, customer3, nike1, nike3, nike4, nike6 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -74,15 +74,22 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Noa Chandler',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: `I‘ve just received my second pair of shoes. So my only problem is to decide which one to wear. Do I have to say more? Btw, I’ll wear them with the green laces not only on St.Patrick‘s Day.`
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        customerName: 'Aron Willis',
+        rating: 4.1,
+        feedback: `Very comfortable. The sizing is true. The toe-box is roomy. I think I will get the sneaker style in cognac next. And of course I need something in black. Clean lines. Low heel. Kitten Testicle Grey? What a great name for the color.`
+    },
+    {
+        imgURL: customer3,
+        customerName: 'Lily-Mae Potts',
+        rating: 4.8,
+        feedback: `That's it. I've worn them one day, and they're the best sneakers I've ever owned. Worth every penny and then some. Truly excellent quality, comfort, style- you name it, they've got it!`
+
     }
 ];
 
