@@ -2,7 +2,7 @@ pipeline {
   agent any
   tools { nodejs 'Node_25' }   // matches the name you configured in Tools
   triggers {
-    pollscm('H/2 * * * *')       
+    pollSCM('H/2 * * * *')       
   }
   options {
     timestamps()
