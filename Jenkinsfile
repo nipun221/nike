@@ -2,9 +2,7 @@ pipeline {
   agent any
   tools { nodejs 'Node_25' }   // matches the name you configured in Tools
   triggers {
-    // Use one of these:
-    // pollSCM('H/2 * * * *') // fallback polling
-    // or webhook via GitHub (see section 4)
+    scm('H/5 * * * *')       
   }
   options {
     timestamps()
