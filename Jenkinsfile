@@ -2,7 +2,7 @@ pipeline {
   agent any
   tools { nodejs 'Node_25' }   // matches the name you configured in Tools
   triggers {
-    scm('H/5 * * * *')       
+    scm('H/2 * * * *')       
   }
   options {
     timestamps()
