@@ -1,5 +1,5 @@
 pipeline {
-    agent any 
+    agent { label: 'slaveAgent' } 
     tools { nodejs 'Node_25' }
     options { timestamps() }
     stages {
@@ -20,7 +20,7 @@ pipeline {
                 sh 'npm run build'
                 sh 'echo "--- Workspace Content After Build ---"'
                 sh 'ls -l'
-                archiveArtifacts artifacts: 'dist/**/*', fingerprint: true, allowEmptyArchive: false
+                archiveArtifacts artifacts: 'dist/**/*', fingerprint: true
             }
         }
 

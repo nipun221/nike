@@ -7,8 +7,6 @@ pipeline {
                 copyArtifacts(
                     projectName: 'nike-pipeline', 
                     selector: 'lastSuccessful',
-                    flatten: false,
-                    optional: false
                 )
             }
         }
