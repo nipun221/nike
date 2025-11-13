@@ -1,12 +1,14 @@
 pipeline {
-    agent slaveAgent
+    agent { label: 'slaveAgent' }
     options { timestamps() }
     stages {
         stage('Download Artifact') {
             steps {
                 copyArtifacts(
                     projectName: 'nike-pipeline', 
-                    selector: 'lastSuccessful'
+                    selector: 'lastSuccessful',
+                    flatten: false,
+                    optional: false
                 )
             }
         }

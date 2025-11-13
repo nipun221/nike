@@ -20,7 +20,7 @@ pipeline {
                 sh 'npm run build'
                 sh 'echo "--- Workspace Content After Build ---"'
                 sh 'ls -l'
-                archiveArtifacts artifacts: '**/dist/**', fingerprint: true
+                archiveArtifacts artifacts: 'dist/**/*', fingerprint: true, allowEmptyArchive: false
             }
         }
 
