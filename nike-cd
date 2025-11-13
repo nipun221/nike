@@ -1,0 +1,39 @@
+pipeline {
+    agent { label 'dev1' }
+    options { timestamps() }
+    stages {
+        stage('Download Artifact') {
+            steps {
+                copyArtifacts(
+                    projectName: 'nike-ci', 
+                    selector: lastSuccessful()
+                )
+            }
+        }
+
+        stage('Prepare Staging Folder') {
+            steps {
+                sh '''
+                    mkdir -p /opt/staging/nike
+                    rm -rf /opt/staging/nike/*
+                '''
+            }   
+        }
+
+        stage('Deploy to staging') {
+            steps {
+                sh '''
+                    cp -r dist/* /opt/staging/nike/
+                '''
+            }
+        }
+
+        stage('Verify Deployment') {
+            steps {
+                sh '''
+                    ls -l /opt/staging/nike/
+                '''
+            }
+        }
+    }
+}

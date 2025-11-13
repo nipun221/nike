@@ -21,7 +21,6 @@ pipeline {
     stage('Build') {
       steps {
         sh 'npm run build'
-        // archive build output as artifact
         archiveArtifacts artifacts: 'dist/**', fingerprint: true
       }
     }
