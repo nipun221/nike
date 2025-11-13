@@ -25,7 +25,7 @@ pipeline {
 
         stage('Trigger Downstream Job') {
             steps {
-                build job: 'nike-cd', wait: false
+                build job: 'nike-deployment', wait: false
             }
         }
     }
