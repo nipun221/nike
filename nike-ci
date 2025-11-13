@@ -1,5 +1,5 @@
 pipeline {
-    agent { label: 'slaveAgent' } 
+    agent { label 'slaveAgent' } 
     tools { nodejs 'Node_25' }
     options { timestamps() }
     stages {
