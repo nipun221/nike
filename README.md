@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 ![nike-pro](https://github.com/nipun221/nike/assets/98182168/c6b69668-0904-4ac0-aed9-5a22fa5c2c48)
 
 This is a test commit
+this is a new test commit
