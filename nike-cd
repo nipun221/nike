@@ -5,7 +5,7 @@ pipeline {
         stage('Download Artifact') {
             steps {
                 copyArtifacts(
-                    projectName: 'nike-ci', 
+                    projectName: 'nike-pipeline', 
                     selector: lastSuccessful()
                 )
             }

@@ -1,7 +1,6 @@
 pipeline {
     agent any 
     tools { nodejs 'Node_25' }
-    triggers { pollSCM('H/2 * * * *') }
     options { timestamps() }
     stages {
         stage('Checkout') {
@@ -27,6 +26,15 @@ pipeline {
             steps {
                 build job: 'nike-deployment', wait: false
             }
+        }
+    }
+
+    post {
+        success {
+            echo 'Build and artifact archiving successful!'
+        }
+        failure {
+            echo 'Build failed. Please check the logs.' 
         }
     }
 }
