@@ -1,10 +1,6 @@
 # **Nike React – Full CI/CD Pipeline with Jenkins + NGINX (Staging Deployment)**
 
-## 📺 Live Demo Video
-
-Here is the complete CI/CD workflow demonstration:
-
-[![Watch the video](https://img.youtube.com/vi/fLFWhiYAPB4/maxresdefault.jpg)](https://youtu.be/fLFWhiYAPB4)
+## 📺 Live Demo Video: https://youtu.be/fLFWhiYAPB4
 
 This repository contains a **React + Vite** application and a complete **CI/CD pipeline** implemented using **Jenkins**, **GitHub Webhooks**, **a dedicated Jenkins Agent**, **artifact passing**, and **NGINX staging deployment**.
 
