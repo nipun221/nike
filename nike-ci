@@ -19,7 +19,7 @@ pipeline {
             steps {
                 sh 'npm run build'
                 sh 'echo "--- Workspace Content After Build ---"'
-                sh 'ls -R .'
+                sh 'ls -l'
                 archiveArtifacts artifacts: '**/dist/**', fingerprint: true
             }
         }
