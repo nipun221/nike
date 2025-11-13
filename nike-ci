@@ -18,7 +18,9 @@ pipeline {
         stage('Build and Archive') {
             steps {
                 sh 'npm run build'
-                archiveArtifacts artifacts: 'dist/**', fingerprint: true
+                sh 'echo "--- Workspace Content After Build ---"'
+                sh 'ls -R .'
+                archiveArtifacts artifacts: '**/dist/**', fingerprint: true
             }
         }
 
