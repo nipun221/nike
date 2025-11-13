@@ -1,9 +1,10 @@
-.
----
-
 # **Nike React – Full CI/CD Pipeline with Jenkins + NGINX (Staging Deployment)**
 
-![nike-pro](https://github.com/nipun221/nike/assets/98182168/c6b69668-0904-4ac0-aed9-5a22fa5c2c48)
+## 📺 Live Demo Video
+
+Here is the complete CI/CD workflow demonstration:
+
+[![Watch the video](https://img.youtube.com/vi/fLFWhiYAPB4/maxresdefault.jpg)](https://youtu.be/fLFWhiYAPB4)
 
 This repository contains a **React + Vite** application and a complete **CI/CD pipeline** implemented using **Jenkins**, **GitHub Webhooks**, **a dedicated Jenkins Agent**, **artifact passing**, and **NGINX staging deployment**.
 
