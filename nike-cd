@@ -6,7 +6,7 @@ pipeline {
             steps {
                 copyArtifacts(
                     projectName: 'nike-pipeline', 
-                    selector: lastSuccessful()
+                    selector: 'lastSuccessful'
                 )
             }
         }
@@ -14,8 +14,8 @@ pipeline {
         stage('Prepare Staging Folder') {
             steps {
                 sh '''
-                    mkdir -p /opt/staging/nike
-                    rm -rf /opt/staging/nike/*
+                    sudo mkdir -p /opt/staging/nike
+                    sudo rm -rf /opt/staging/nike/*
                 '''
             }   
         }
@@ -23,7 +23,7 @@ pipeline {
         stage('Deploy to staging') {
             steps {
                 sh '''
-                    cp -r dist/* /opt/staging/nike/
+                    sudo cp -r dist/* /opt/staging/nike/
                 '''
             }
         }
