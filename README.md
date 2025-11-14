@@ -1,3 +1,5 @@
+![Jenkins Build](https://img.shields.io/badge/Jenkins-Passing-brightgreen?logo=jenkins&logoColor=white)
+
 # **Nike React – Full CI/CD Pipeline with Jenkins + NGINX (Staging Deployment)**
 
 ## 📺 Live Demo Video: https://youtu.be/fLFWhiYAPB4
